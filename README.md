@@ -6,8 +6,12 @@ After you downloaded the archive, unzip it into the the folder "my_data", to the
 ```code
 mkdir my_data
 # unzip your archive to my_data directory
-# The dir tree should be:
-/my_data/<your_facebook_name>/...
+# The repo tree should be:
+..
+docker-compose.yml
+/my_data/facebook-<your_facebook_name>/about_you
+/my_data/facebook-<your_facebook_name>/ads_and_businesses
+...
 ```
 Then, install docker-compose and docker locally.<br>
 Now, simply run the stack and see your data. 
